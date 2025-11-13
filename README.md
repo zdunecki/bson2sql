@@ -25,6 +25,11 @@ node ./dist/index.js <bson_file> <schema_file.json> [database_type]
 - `<schema_file.json>`: Path to the schema definition JSON file
 - `[database_type]`: Optional, one of `mysql`, `postgresql`, or `sqlite` (default: `mysql`)
 
+or via `bunx`:
+```bash
+bunx bson2sql <bson_file> <schema_file.json> [database_type]
+```
+
 ### Example
 
 ```bash
